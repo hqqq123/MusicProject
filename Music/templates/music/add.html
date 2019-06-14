@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block bodytitle %}
+    <span class="glyphicon glyphicon-music">添加歌曲</span>
+
+{% endblock %}
+{% block content %}
+
+
+    <div class="row">
+        <div class="container col-lg-10 col-lg-offset-1">
+{#            <span class="glyphicon glyphicon-music">添加歌曲</span>#}
+            <hr>
+            <form method="post" action="{% url 'music_add' %}" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label >歌曲名称</label>
+                    <input type="text" name="name"  class="form-control" placeholder="music name">
+                </div>
+                <div class="form-group">
+                    <label >歌手</label>
+                    <select  class="form-control" name="singers" multiple>
+                        {% for singer in singers %}
+    {#                                            获取值#}
+    {#                                          <option id="{{ type.id }}">{{ type.name }}</option>#}
+    {#                                        获取id#}
+    {#                                      <option value="{{ type.id }}">{{ type.name }}</option>#}
+{#
+                            <option value="{{ singer.id }}">{{ singer.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                <label >歌曲类型</label>
+                    <select  class="form-control" name="type" >
+                        {% for type in types %}
+{#                                            获取值#}
+{#                                          <option id="{{ type.id }}">{{ type.name }}</option>#}
+{#                                        获取id#}
+{#                                      <option value="{{ type.id }}">{{ type.name }}</option>#}
+                            <option value="{{ type.id }}">{{ type.name }}</option>
+                        {% endfor %}
+                    </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">图片</label>
+                <input type="file" name="img" accept="image/png,image/jpeg,image/gif" value="/home/kiosk/PycharmProjects/Project/Music/static/img/music/20190609_090701_IMG20190415134113.jpg">
+                <p class="help-block">只能选择.jpg/.png/.gif文件.</p>
+              </div>
+
+                <div class="form-group">
+                <label for="exampleInputFile">文件</label>
+                <input type="file" name="file" accept="audio/mpeg">
+                <p class="help-block">只能选择.mp3文件.</p>
+              </div>
+
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+{% endblock %}

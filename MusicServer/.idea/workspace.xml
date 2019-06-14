@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ccad468e-f872-4120-b5d6-457901fb0e1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/10_基于TCP的聊天室通信/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/10_基于TCP的聊天室通信/client01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/10_基于TCP的聊天室通信/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/account/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/authority/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/music/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/musiclist/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/role/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/singer/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/account/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/account/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/account/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/account/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/account/name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/account/pwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/authority/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/authority/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/authority/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/music/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/music/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/music/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/musiclist/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/musiclist/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/musiclist/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/musiclist/musics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/role/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/role/authorities.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/role/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/role/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/singer/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/singer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/singer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/type/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/type/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/templates/type/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/type/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MusicServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authority/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musiclist/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/role/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singer/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/account/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/account/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/analysis/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/authority/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/order/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/play/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/role/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/schedule/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/seat/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/css/style-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/css/table-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/css/to-do.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/css/zabuto_calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/blog-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/checkbox-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/friends/fr-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/instagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/lorde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/ny.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/portfolio/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/portfolio/port01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/portfolio/port02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/portfolio/port03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/portfolio/port04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/portfolio/port05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/portfolio/port06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/profile-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/profile-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/radio-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/ui-danro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/ui-divya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/ui-sam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/ui-sherman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/ui-zac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/weather.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/img/zoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/bootstrap-inputmask/bootstrap-inputmask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/bootstrap-switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/calendar-conf-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/chart-master/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/chartjs-conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/common-scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/fancybox/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/fancybox/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/form-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/fullcalendar/bootstrap-fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/gritter-conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/gritter/css/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/gritter/css/jquery.gritter0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/gritter/images/gritter-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/gritter/images/gritter-long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/gritter/images/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/gritter/js/jquery.gritter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery-easy-pie-chart/jquery.easy-pie-chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery-easy-pie-chart/jquery.easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery.backstretch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery.dcjqaccordion.2.7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery.nicescroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery.scrollTo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery.tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/morris-conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/sparkline-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/tasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/js/zabuto_calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/lineicons/fonts/linecons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/lineicons/fonts/linecons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/lineicons/fonts/linecons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/lineicons/fonts/linecons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/lineicons/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/lineicons/lte-ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/assets/lineicons/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/css/jquery.slider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/css/jslider.blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/css/jslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/css/jslider.plastic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/css/jslider.round.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/css/jslider.round.plastic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/img/enable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/img/jslider.blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/img/jslider.plastic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/img/jslider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/img/jslider.round.plastic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/img/jslider.round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/img/sale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/img/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/draggable-0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/jquery.dependClass-0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/jquery.numberformatter-1.2.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/jquery.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/jquery.slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/jshashtable-2.1_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/morris-0.4.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/static/js/tmpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/studio/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/system/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/account/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/account/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/account/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/account/pwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/analyse/sale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/authority/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/authority/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/authority/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/macro/pages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/play/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/play/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/play/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/role/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/role/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/role/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/schedule/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/schedule/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/schedule/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/seat/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/seat/addseat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/studio/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/studio/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/studio/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/studio/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/studio/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/system/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/ticket/ok.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/ticket/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/ticket/sale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/ticket/seat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/type/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/type/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/templates/type/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/ticket/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TTMS/type/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlogProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlogProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlogProject/BlogProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlogProject/BlogProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlogProject/BlogProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlogProject/BlogProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlogProject/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlogProject/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlogProject/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BlogProject/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlogProject/templates/blog/detaile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BlogProject/templates/blog/detaile.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MusicServer$views.coverage" NAME="views Coverage Results" MODIFIED="1560442203932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/music" />
+    <SUITE FILE_PATH="coverage/MusicServer$tests.coverage" NAME="tests Coverage Results" MODIFIED="1559911120560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/singer" />
+    <SUITE FILE_PATH="coverage/MusicServer$tests__1_.coverage" NAME="tests (1) Coverage Results" MODIFIED="1560355174768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/account" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/music/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-620">
+              <caret line="105" column="48" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#619#3324#0" />
+                <element signature="e#4322#4510#0" />
+                <element signature="e#4549#8025#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musiclist/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-268">
+              <caret line="177" column="44" lean-forward="true" selection-start-line="177" selection-start-column="44" selection-end-line="177" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#366#1499#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musiclist/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/singer/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#700#1267#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MusicServer/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding>
+                <element signature="e#635#667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MusicServer/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="183" selection-start-line="183" selection-end-line="183" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/singer/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Singer</find>
+      <find>account_</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Type</replace>
+      <replace>musiclist_</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MusicServer/__init__.py" />
+        <option value="$PROJECT_DIR$/singer/models.py" />
+        <option value="$PROJECT_DIR$/singer/views.py" />
+        <option value="$PROJECT_DIR$/singer/urls.py" />
+        <option value="$PROJECT_DIR$/singer/tests.py" />
+        <option value="$PROJECT_DIR$/type/models.py" />
+        <option value="$PROJECT_DIR$/type/urls.py" />
+        <option value="$PROJECT_DIR$/type/views.py" />
+        <option value="$PROJECT_DIR$/music/models.py" />
+        <option value="$PROJECT_DIR$/account/models.py" />
+        <option value="$PROJECT_DIR$/account/tests.py" />
+        <option value="$PROJECT_DIR$/MusicServer/urls.py" />
+        <option value="$PROJECT_DIR$/authority/urls.py" />
+        <option value="$PROJECT_DIR$/authority/views.py" />
+        <option value="$PROJECT_DIR$/role/models.py" />
+        <option value="$PROJECT_DIR$/role/urls.py" />
+        <option value="$PROJECT_DIR$/musiclist/models.py" />
+        <option value="$PROJECT_DIR$/account/views.py" />
+        <option value="$PROJECT_DIR$/account/urls.py" />
+        <option value="$PROJECT_DIR$/authority/models.py" />
+        <option value="$PROJECT_DIR$/musiclist/urls.py" />
+        <option value="$PROJECT_DIR$/role/views.py" />
+        <option value="$PROJECT_DIR$/musiclist/views.py" />
+        <option value="$PROJECT_DIR$/MusicServer/settings.py" />
+        <option value="$PROJECT_DIR$/music/views.py" />
+        <option value="$PROJECT_DIR$/music/urls.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="28" />
+    <option name="width" value="727" />
+    <option name="height" value="529" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MusicServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicServer" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicServer" type="462c0819:PsiDirectoryNode" />
+              <item name="musiclist" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Music" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/authority" />
+      <recent name="$PROJECT_DIR$/musiclist" />
+      <recent name="$PROJECT_DIR$/account" />
+      <recent name="$PROJECT_DIR$/role" />
+      <recent name="$PROJECT_DIR$/type" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.views">
+    <configuration name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicServer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/account" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/account/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicServer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/singer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/singer/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicServer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/music" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/music/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MusicServer" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MusicServer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.tests (1)" />
+        <item itemvalue="Python.tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ccad468e-f872-4120-b5d6-457901fb0e1e" name="Default Changelist" comment="" />
+      <created>1559784171312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559784171312</updated>
+      <workItem from="1559784172865" duration="30775000" />
+      <workItem from="1559882663123" duration="18104000" />
+      <workItem from="1559974473506" duration="22694000" />
+      <workItem from="1560065628858" duration="19177000" />
+      <workItem from="1560125552523" duration="28929000" />
+      <workItem from="1560211682438" duration="35698000" />
+      <workItem from="1560297974032" duration="38007000" />
+      <workItem from="1560384320019" duration="18706000" />
+      <workItem from="1560412976166" duration="23158000" />
+      <workItem from="1560470676357" duration="8048000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="243296000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="28" width="1368" height="707" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18465045" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50227964" side_tool="true" weight="0.33214286" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49772036" visible="true" weight="0.05357143" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32978722" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MusicServer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singer/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/Virtual/lib/python3.6/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="1095" column="8" selection-start-line="1095" selection-start-column="8" selection-end-line="1095" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/Virtual/lib/python3.6/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="547" column="8" selection-start-line="547" selection-start-column="8" selection-end-line="547" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/type/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/type/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/Virtual/lib/python3.6/wsgiref/simple_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicServer/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#227#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/Virtual/lib/python3.6/site-packages/django/core/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/Virtual/lib/python3.6/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="585" selection-start-line="585" selection-end-line="585" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/Virtual/lib/python3.6/site-packages/django/core/servers/basehttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1453">
+          <caret line="178" column="56" selection-start-line="178" selection-start-column="56" selection-end-line="178" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/Virtual/lib/python3.6/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="695" selection-start-line="695" selection-end-line="695" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/music/20190609_100357_20190609_100357_IMG20190415134113.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/Virtual/lib/python3.6/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musiclist/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+            <element signature="e#344#818#0" />
+            <element signature="e#659#1444#0" />
+            <element signature="e#1483#1650#0" />
+            <element signature="e#1687#2715#0" />
+            <element signature="e#2753#3274#0" />
+            <element signature="e#3314#3729#0" />
+            <element signature="e#4438#5162#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/role/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#595#1530#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/role/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/role/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/type/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singer/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicServer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#700#1267#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicServer/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musiclist/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="177" column="44" lean-forward="true" selection-start-line="177" selection-start-column="44" selection-end-line="177" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#366#1499#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musiclist/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="105" column="48" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#619#3324#0" />
+            <element signature="e#4322#4510#0" />
+            <element signature="e#4549#8025#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

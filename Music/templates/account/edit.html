@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block bodytitle %}
+    <span class="glyphicon glyphicon-user">编辑用户</span>
+
+{% endblock %}
+{% block content %}
+            <hr>
+            <form class="form-horizontal" method="post" action="{% url 'account_edit' account.id %}">
+              {% csrf_token %}
+                <div class="form-group">
+                    <label  class="col-sm-2 control-label">用户名</label>
+                    <div class="col-sm-10">
+                      <input name="name" type="text" class="form-control"  value="{{ account.name }}">
+                    </div>
+                </div>
+                <div class="form-group">
+                <label  class="col-sm-2 control-label">所属角色</label>
+                <div class="col-sm-10">
+                    <select  class="form-control" name="role" >
+                        {% for role in roles %}
+{#                                            获取值#}
+{#                                          <option id="{{ type.id }}">{{ type.name }}</option>#}
+{#                                        获取id#}
+{#                                      <option value="{{ type.id }}">{{ type.name }}</option>#}
+                            {% if role.id == account.role_id %}
+                            <option value="{{ role.id }}" selected="selected">{{ role.name }}</option>
+                            {% else %}
+                            <option value="{{ role.id }}">{{ role.name }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit"  class="btn btn-default"  >编辑</button>
+                </div>
+              </div>
+            </form>
+
+{% endblock %}
+ <script>
+        function check_password() {
+            var pwd=document.getElementById("pwd");
+            var repwd=document.getElementById("repwd");
+            if(pwd.value!=repwd.value){
+                repwd.style="border: 1px solid red";
+            }
+            else {
+                repwd.style="";
+            }
+
+        }
+ </script>

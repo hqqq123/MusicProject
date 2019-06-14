@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% block bodytitle %}
+    <span class="glyphicon glyphicon-music">歌单列表</span>
+
+{% endblock %}
+{% block content %}
+    <table class="table table-hover" id="list">
+            {% for musiclist in musiclists %}
+            <tr>
+
+                <td><a class="btn" href="{% url 'musiclist_musics' %}?name={{ musiclist.name }}&musiclist_account_name={{ musiclist.account_name }}&musiclist_account_id={{ musiclist.account_id }}" methods="get">{{ musiclist.name }}----用户 : {{ musiclist.account_name }}</a><span class="badge">{{ musiclist.musics_len }}</span></td>
+
+
+                <td >
+                     <a class="btn btn-default btn-xs col-lg-offset-8" href="{% url 'musiclist_edit' musiclist.id %}?musiclist_name={{ musiclist.name }}">编辑</a>
+
+                    <a class="btn btn-default btn-xs" href="{% url 'musiclist_delete' musiclist.id %}">删除</a>
+
+
+                </td>
+
+            </tr>
+            {% endfor %}
+        </table>
+
+
+
+
+    
+
+
+
+{% endblock %}
+{% block page %}
+        <div class="col-lg-offset-2">
+                    <nav aria-label="Page navigation">
+                  <ul class="pagination">
+                      {% if musiclistsPageObj.has_previous %}
+                    <li >
+                      <a href="{% url 'musiclist_list' %}?page={{ musiclistsPageObj.previous_page_number }}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                      {% else %}
+                    <li class="disabled">
+                      <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                      {% endif %}
+
+                      {% for page in musiclistsPageObj.paginator.page_range %}
+                          {% if page == musiclistsPageObj.number %}
+                          <li class="active"><a href="{% url 'musiclist_list' %}?page={{ page }}">{{ page}}</a></li>
+                          {% else %}
+                          <li><a href="{% url 'musiclist_list' %}?page={{ page }}">{{ page}}</a></li>
+                          {% endif %}
+                      {% endfor %}
+
+                    {% if musiclistsPageObj.has_next %}
+                    <li>
+                      <a href="{% url 'musiclist_list' %}?page={{ musiclistsPageObj.next_page_number }}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                    {% else %}
+                    <li class="disabled">
+                      <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                    {% endif %}
+                  </ul>
+                </nav>
+    </div>
+{% endblock %}
